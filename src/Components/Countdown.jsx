@@ -41,7 +41,7 @@ const Countdown = ({ targetDate }) => {
   }, [targetDate]);
 
   return (
-    <div className="text-white flex flex-row justify-center gap-20 items-center">
+    <div className="text-white flex flex-row justify-center gap-20 items-center mb-32">
       <div className="flex flex-col items-center">
         <div className="text-center text-white text-4xl font-bold font-Inter">
           Day

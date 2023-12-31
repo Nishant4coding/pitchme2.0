@@ -7,7 +7,7 @@ import Navbar from './Components/Navbar';
 import Why from './Components/Why';
 
 function App() {
-  const targetDate = new Date('2024-01-11T00:00:00Z');
+  const targetDate = new Date('2024-01-11T00:00:00');
   return (
     <div className='bg-black p-10'>
       <Navbar/>
