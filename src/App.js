@@ -9,6 +9,7 @@ import Why from './Components/Why';
 import backgroundVideo from './Assets/bg.mp4'
 import Highlight from './Components/Highlight';
 import Guest from './Components/Guest';
+import Timeline from './Components/Timeline';
 
 function App() {
 
@@ -38,9 +39,10 @@ function App() {
       <div className='p-0'>
       <Navbar/>
       <Hero/>
-      <About/>
       <Countdown targetDate={targetDate}/>
-      <Highlight/>
+      <About/>
+      {/* <Highlight/> */}
+      <Timeline/>
       <Why/>
       <Guest/>
       <Footer/>
